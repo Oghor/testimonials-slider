@@ -48,7 +48,7 @@ body {
         body .container .profile-text #title {
           font-size: 1rem;
           color: #babacf; }
-      body .container img {
+      body .container #display-img {
         position: absolute;
         top: 0;
         right: 0;
@@ -57,6 +57,7 @@ body {
     body .nav-btn {
       background-color: white;
       width: 80px;
+      /* height: 50px; */
       border-radius: 20px;
       display: flex;
       align-items: center;
@@ -66,8 +67,17 @@ body {
       position: absolute;
       right: 340px;
       bottom: -20px;
-      user-select: none; }
+      user-select: none;
+      /* border: 5px solid red; */
+     }
       body .nav-btn .cursor {
         cursor: pointer;
         padding: 0.5rem 0rem; }
 }
+
+/* body .container .nav-btn {
+        top: 230px;
+        max-height: 34px;
+        right: 50%;
+        margin-right: -40px;
+        width: 80px; } */
